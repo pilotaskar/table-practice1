@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Montserrat:wght@100;400&family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@200;300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+th {
+    background-color: gray;
+}
+
+tr:nth-child(even){
+    background-color: pink;
+    border: none;
+}
